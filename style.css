@@ -183,13 +183,23 @@ a {
     display: none;
 }
 
+.search_button {
+    position: relative;
+}
 
 .search_button button {
+    
     width: 185px;
     height: 50px;
     border-radius: 25px;
-    color: #fff;
+    border: none;
 } 
+
+.search_button img {
+    position: absolute;
+    top: 12px;
+    right: 30px;
+}
 
 .header_name {
     font-size: 92px;
@@ -476,6 +486,9 @@ a {
    .section_social {
        flex-wrap: wrap;
    }
+   .section_social_company {
+       max-width: 400px;
+   }
    
 }
 
@@ -511,13 +524,18 @@ a {
         padding-top: 130px;
         padding-bottom: 130px;
     }
+    .social_text {
+        font-size: 18px;
+    }
+    .social_title {
+        font-size: 26px;
+    }
     .section_social_about {
         margin: 50px 0px;
     }
     .section_social_other {
         margin: 50px 0px;
     }
-   
 }
 
 @media screen and (max-width: 768px) {
