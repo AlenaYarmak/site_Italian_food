@@ -81,7 +81,11 @@ a {
     justify-content: space-between;
     width: 550px;
     padding-right: 50px;
-    padding-top: 11px;
+    padding-top: 11px;   
+}
+
+.menu_nav a {
+    color: #fff;
 }
 
 /* бургер меню для устройств max-width: 768px*/
@@ -187,17 +191,26 @@ a {
     position: relative;
 }
 
-.search_button button {
-    
+.search_button input {
     width: 185px;
     height: 50px;
     border-radius: 25px;
     border: none;
-} 
+    padding: 20px;
+    font-family: Open Sans;
+}
+
+.search_button input:focus {
+    outline: none;
+}
+
+.search_button button {
+    border: none;
+}
 
 .search_button img {
     position: absolute;
-    top: 12px;
+    top: 10px;
     right: 30px;
 }
 
